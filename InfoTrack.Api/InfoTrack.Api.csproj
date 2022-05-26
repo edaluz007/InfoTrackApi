@@ -10,6 +10,13 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Application\InfoTrack.Application.csproj" />
+    <ProjectReference Include="..\InfoTrack.Domain\InfoTrack.Domain.csproj" />
+    <ProjectReference Include="..\InfoTrack.Infrastructure\InfoTrack.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
