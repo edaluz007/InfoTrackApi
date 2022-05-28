@@ -1,12 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InfoTrack.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace InfoTrack.Infrastructure.Data {
-	public class ITDbContext : DbContext {
-		public ITDbContext(DbContextOptions<ITDbContext> options) : base(options) { }
-	}
+    public class ITDbContext : DbContext {
+        public ITDbContext(DbContextOptions<ITDbContext> options) : base(options) { }
+        public DbSet<Search> Searches { get; set; }
+    }
 }
