@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Application\InfoTrack.Application.csproj" />
     <ProjectReference Include="..\InfoTrack.Domain\InfoTrack.Domain.csproj" />
   </ItemGroup>
 
