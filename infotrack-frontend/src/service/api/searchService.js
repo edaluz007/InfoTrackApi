@@ -1,7 +1,7 @@
 import axios from '@/axios'
-export async function getAccountTypes(){
+export async function getSearch(){
   return axios.get('Search/data');
 }
-export async function getAccountType(id){
+export async function getResults(id){
   return axios.get('Search/data/' + id);
 }
