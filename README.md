@@ -50,7 +50,7 @@ $ dotnet run --launch-profile "InfoTrack.Api"
 * InfoTrack.Test
 
 
-## Struct BACKEND
+## Struct FRONTEND
 
 
 * SRC
